@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #8E919D;
+    overflow-x: hidden;
+    
+
+}
+
+.container{
+    padding: 0px 100px;
+}
+
+/* Header-Section */
+
+.header-section{
+    width: 100vw;
+    height: 120vh;
+    background-color: #FFF8F3;
+    background-image: url(developer.png), url(header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom right;
+    padding: 50px 50px ;
+    
+
+}
+
+
+
+.menu-bar{
+    display: flex;
+    
+}
+
+.logo-side{
+    width: 30%;
+}
+
+.logo-side h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.logo-side h1 span{
+    color: #FD6E0A;
+}
+
+.menu-side{
+    width: 70%;
+    
+}
+
+.menu-side ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+.menu-side ul li{
+    display: inline-block;
+    margin-left: 30px;
+   
+}
+
+
+
+.menu-side ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    transition: 0.4s ease-in-out;
+}
+
+.menu-side ul li a:hover{
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.menu-side ul li.active a{
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+}
+
+/* banner-section */
+
+.banner{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .detais{
+    width: 50%;
+    padding-top: 100px;
+}
+
+.banner .detais h2{
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+.banner .detais h1{
+    color: #000000;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.banner .detais p{
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Button{
+    font-size: 18px;
+    width: 600;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 15px 35px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.4s all ease-in-out;
+}
+
+.Button:hover{
+    color: #000000;
+}
+
+
+.banner .image{
+    width: 50%;
+    margin-bottom: 0px;
+}
+
+.banner .image img{
+    float: right;
+}
+
+
+
+
