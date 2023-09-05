@@ -551,8 +551,29 @@ padding: 20px 0px;
     text-transform: capitalize;
 }
 
-.massage-right .box1{
-    margin-bottom: 20px;
+.textarea1{
+
+    background-color: #dddddd;
+    color: #666666;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    height: 100px;
+    width: 300px;
+}
+
+.textarea2{
+
+    background-color: #dddddd;
+    color: #666666;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    height: 150px;
+    width: 300px;
+
 }
 
 .bt{
